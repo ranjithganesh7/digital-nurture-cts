@@ -1,8 +1,10 @@
 -- ==========================
 -- Task 1: Create Database
 -- ==========================
-
+CREATE DATABASE college_db;
 USE college_db;
+SHOW DATABASES;
+
 CREATE TABLE departments (
     department_id INT AUTO_INCREMENT PRIMARY KEY,
     dept_name VARCHAR(100) NOT NULL,
@@ -134,6 +136,6 @@ SHOW CREATE TABLE courses;
 SHOW CREATE TABLE enrollments;
 SHOW CREATE TABLE professors;
 
---=============================
+-- =============================
 -- Ranjith Ganesh B
---=============================
+-- =============================
